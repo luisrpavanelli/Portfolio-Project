@@ -39,7 +39,7 @@ header {
   text-align: center;
   max-height: 725px;
   background-image: url("./icons/header-mobile-bg.png");
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   padding: 64px 24px;
   margin: auto;

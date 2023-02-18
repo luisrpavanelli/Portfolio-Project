@@ -89,7 +89,7 @@ To run this project, you will need a web browser, a text editor, and a local web
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Luis Renan Pavanello**
+👤 **Luis Renan Pavanello** 
 
 - GitHub: [@luisrpavanelli](https://github.com/luisrpavanelli)
 - Twitter: [@luisrpavanello](https://twitter.com/luisrpavanello)

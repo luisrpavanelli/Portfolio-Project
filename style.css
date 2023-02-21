@@ -227,3 +227,31 @@ hr.roundeddivider {
   width: 50px;
   margin: 24px auto;
 }
+
+form {
+  margin: 12px auto;
+  width: 463px;
+  height: 256px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 35px;
+  /* or 173% */
+  
+  display: flex;
+  align-items: center;
+  
+  
+  /* Neutrals/N800 */
+  
+  color: #172B4D;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }

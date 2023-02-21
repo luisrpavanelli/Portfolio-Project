@@ -95,6 +95,18 @@ To run this project, you will need a web browser, a text editor, and a local web
 - Twitter: [@luisrpavanello](https://twitter.com/luisrpavanello)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/luisrpavanello)
 
+👤 **Santiago Muñoz**
+
+- GitHub: [@smunoz](https://github.com/smunoz)
+- Twitter: [@Santiag24209785](https://twitter.com/Santiag24209785)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/santiagomuñoz
+
+👤 **Eric**
+
+- GitHub: [@Mylo16](https://github.com/Mylo16)
+
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

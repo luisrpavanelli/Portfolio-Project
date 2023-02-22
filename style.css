@@ -287,7 +287,7 @@ hr.roundeddivider {
 }
 
 .contactformcontainer:hover {
-  box-shadow: 0 5px 10px rgba(54, 179, 127, 0.8);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .contactformcontainer:active {

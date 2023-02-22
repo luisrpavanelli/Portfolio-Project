@@ -37,7 +37,6 @@ header {
 
 .headline {
   text-align: center;
-
   max-height: 725px;
   background: url("./icons/header-mobile-bg.png");
   background-size: cover;
@@ -45,24 +44,22 @@ header {
   padding: 64px 24px;
   margin: auto;
   display: flex;
-
   gap: 58px;
   flex-direction: column;
   justify-content: center;
 }
 
 .headlinecontent .container {
-  margin: 28px auto; 
+  margin: 28px auto;
 }
 
-.container {
-  
+.containers {
   text-align: center;
   display: flex;
   justify-content: center;
 }
 
-.container ul {
+.containers ul {
   padding: 0;
   display: flex;
   list-style: none;
@@ -87,32 +84,30 @@ header {
 .works {
   display: flex;
   justify-content: center;
-  
 }
 
 .workscard {
   height: 474px;
   width: 369px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   border-radius: 8px;
 }
 
 .card {
-max-height: 100%;
-width: 100%;
-text-align: center;
-background-color: white;
-border-radius: 8px;
+  max-height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
 }
+
 .workscard,
 .aboutcard {
   width: 327px;
   background-color: #ebf0ee;
   border: 1px solid #d0d9d4;
-  
   border-radius: 8px;
-  
   display: flex;
   flex-direction: column;
 }
@@ -120,13 +115,14 @@ border-radius: 8px;
 .aboutcard > * {
   margin: 0;
 }
+
 .aboutcard .tags {
-  background-color: white
+  background-color: #d0d9d4;
   margin: 5px;
-  padding: 12px
+  padding: 12px;
 }
 
-.tags {
+.tagss {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -135,9 +131,9 @@ border-radius: 8px;
 .tag {
   font-size: 12px;
   font-weight: 600;
-  color: #3a4a42;
+  color: #d0d9d4;
   list-style: none;
-  background-color: #ebf0ee;
+  background-color: #d0d9d4;
   padding: 8px 12px;
   border-radius: 5px;
 }
@@ -303,17 +299,16 @@ hr.roundeddivider {
 .email {
   margin: 460px;
 }
-@media (min-width: 450px)
-{
 
+@media (min-width: 450px) {
   header {
     height: 72px;
   }
 
   h1,
   h2 {
-  font-size: 48px;
-  font-weight: 800;
+    font-size: 48px;
+    font-weight: 800;
   }
 
   p {

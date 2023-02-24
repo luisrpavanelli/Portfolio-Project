@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 <div align="center">
-  <img src="./icons/logo.png" alt="LRP" width="140"  height="auto" />
+  <img src="./Desktop_Icons/logo.png" alt="LRP" width="140"  height="auto" />
   <br/>
 
   <h3><b>Portfolio</b></h3> 

@@ -18,9 +18,9 @@
         <nav>
             <img id="menuicon" src="./Desktop_Icons/menuhb.png" atl="Menu" />
             <ul class="menutabs">
-                <a href="#"><li><h2 id="textform2">Portfolio</h2></li></a>
-                <a href="#"><li><h2 id="textform2">About</h2></li></a>
-                <a href="#"><li><h2 id="textform2">Contact</h2></li></a>
+                <a href="#"><li><a id="textform2">Portfolio</a></li></a>
+                <a href="#"><li><a id="textform2">About</a></li></a>
+                <a href="#"><li><a id="textform2">Contact</a></li></a>
             </ul>
         </nav>
     </header>
@@ -255,10 +255,13 @@
             </div>
             <div class="container" id="contactform">
                 <form action="https://formspree.io/f/xlekbooe" method="POST">
+                    <label for="name">Full Name</label><br>
                     <input type="text" id="name" name="name" placeholder="Full name" maxlength="30" required><br>
+                    <label for="email">Email Address</label><br>
                     <input type="email" id="email" name="email" placeholder="Email address" required><br>
+                    <label for="comments">Comments</label><br>
                     <textarea id="comments" name="comment" rows="9" placeholder="Enter text here" maxlength="500" required></textarea><br>               
-                    <input class="button" id="formbutton" type="submit" value="Get in touch">
+                    <input class="button" id="formbutton" type="submit" value="Get in touch">                    
                 </form>
             </div>
         </div>
@@ -284,7 +287,7 @@
             </ul>
         </div>
         <div class="container">
-            <p id="contactemail">luisrpavanello@gmail.com</p>
+            <p id="contactemail">luisrpavanello@gmail.com</p> 
         </div>
     </footer>
 </body>

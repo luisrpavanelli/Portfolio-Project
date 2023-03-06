@@ -12,18 +12,25 @@
     <link rel="icon" href="./Desktop_Icons/logoicon.ico" type="image/x-icon">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <a class="logo" href="#">Welcome</a>
-        <nav>
-            <img id="menuicon" src="./Desktop_Icons/menuhb.png" atl="Menu" />
+    <!-- NavBar -->
+    <nav class="navbar">
+        <div class="branding">Welcome</div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="menu-links">
             <ul class="menutabs">
                 <a href="#"><li><a id="textform2">Portfolio</a></li></a>
                 <a href="#"><li><a id="textform2">About</a></li></a>
                 <a href="#"><li><a id="textform2">Contact</a></li></a>
             </ul>
-        </nav>
-    </header>
+        </div>
+        <span class="dim-background"></span>
+        <button class="exit-mobile-menu">&times;</button>
+    </nav>
+
     <!-- Headline Section-->
     <section class="headline">
         <div class="headlinecontent">
@@ -290,5 +297,6 @@
             <p id="contactemail">luisrpavanello@gmail.com</p> 
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>

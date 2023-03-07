@@ -17,11 +17,12 @@ exitMobileButton.addEventListener('click', () => {
   exitMobileButton.classList.toggle('active');
 });
 
-for (var i = 0; i < menuTabs.length; i++) {
-  menuTabs[i].addEventListener('click', () => {
-    navBarLinks.classList.toggle('active');
-    dimBackground.classList.toggle('active');
-    toggleButton.classList.toggle('active');
-    exitMobileButton.classList.toggle('active');
-  });
-}
+for (let i = 0; i < menuTabs.length; i += 1) {
+     menuTabs[i].addEventListener('click', () => {
+       navBarLinks.classList.toggle('active');
+       dimBackground.classList.toggle('active');
+       toggleButton.classList.toggle('active');
+       exitMobileButton.classList.toggle('active');
+     });
+   }
+   

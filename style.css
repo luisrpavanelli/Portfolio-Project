@@ -294,7 +294,7 @@ nav {
 }
 
 .about {
-  background: url(./Desktop_Images/backgroundabout.png) no-repeat center center / cover;
+  background: url(./Desktop_Images/backgrounddesktopabout.svg) no-repeat center center / cover;
   padding: 0 24px;
   display: flex;
   flex-direction: column;

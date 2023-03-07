@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./Desktop_Icons/logoicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <!-- NavBar -->
     <nav class="navbar">
@@ -21,18 +23,23 @@
             <span class="bar"></span>
         </a>
         <div class="menu-links">
-            <ul class="menutabs">
-                <a href="#"><li>Portfolio</li></a>
-                <a href="#"><li>About</li></a>
-                <a href="#"><li>Contact</li></a>
-            </ul>
+            <aside class="menutabs">
+                <ul class="menutabs">
+                  <li class="menutabs"><a href="#portfolio">Portfolio</a></li>
+                  <div class="aside-bar"></div>
+                  <li class="menutabs"><a href="#aboutme">About</a></li>
+                  <div class="aside-bar"></div>
+                  <li class="menutabs"><a href="#contactsection">Contact</a></li>
+                  <div class="aside-bar"></div>
+                </ul>
+            </aside>
         </div>
         <span class="dim-background"></span>
         <button class="exit-mobile-menu">&times;</button>
-        
+
     </nav>
     <!-- Headline Section-->
-    <section class="headline">
+    <section class="headline" id="portfolio">
         <div class="headlinecontent">
             <div class="container" id="welcometext">
                 <h1>Hey there. I'm Luis</h1>
@@ -52,8 +59,8 @@
                                 alt="Twitter"></a>
                     </li>
                     <li class="socialmediaicons">
-                        <a href="https://www.linkedin.com/in/luisrpavanello/"><img src="./Desktop_Icons/SocialMedia/linkedin.png"
-                                alt="LinkedIn"></a>
+                        <a href="https://www.linkedin.com/in/luisrpavanello/"><img
+                                src="./Desktop_Icons/SocialMedia/linkedin.png" alt="LinkedIn"></a>
                     </li>
                     <li class="socialmediaicons">
                         <a href="https://medium.com/"><img src="./Desktop_Icons/SocialMedia/medium.png"
@@ -75,7 +82,7 @@
         </div>
 
     </section>
-    <section class="workscontainer">
+    <section class="workscontainer" id="workss">
         <div class="container">
             <h2>My Recent Works</h2>
         </div>
@@ -97,7 +104,7 @@
                         </ul>
                     </div>
                     <div class="cardinfo">
-                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See 
+                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See
                             Project</button>
                     </div>
                 </div>
@@ -116,7 +123,7 @@
                         </ul>
                     </div>
                     <div class="cardinfo">
-                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';" >See 
+                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See
                             Project</button>
                     </div>
                 </div>
@@ -135,7 +142,7 @@
                         </ul>
                     </div>
                     <div class="cardinfo">
-                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See 
+                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See
                             Project</button>
                     </div>
                 </div>
@@ -154,7 +161,7 @@
                         </ul>
                     </div>
                     <div class="cardinfo">
-                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See 
+                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See
                             Project</button>
                     </div>
                 </div>
@@ -173,7 +180,7 @@
                         </ul>
                     </div>
                     <div class="cardinfo">
-                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See 
+                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See
                             Project</button>
                     </div>
                 </div>
@@ -192,7 +199,7 @@
                         </ul>
                     </div>
                     <div class="cardinfo">
-                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See 
+                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See
                             Project</button>
                     </div>
                 </div>
@@ -200,7 +207,7 @@
         </div>
 
     </section>
-    <section class="aboutme">
+    <section class="aboutme" id="aboutme">
         <div class="about">
             <div class="container">
                 <h2>About Me</h2>
@@ -213,7 +220,7 @@
                 </p>
             </div>
             <div class="container">
-                <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';"> Get My  
+                <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';"> Get My
                     Resume</button>
             </div>
         </div>
@@ -270,7 +277,7 @@
             </div>
         </div>
     </section>
-    <section class="contactsection">
+    <section class="contactsection" id="contactsection">
         <div class="contact">
             <div class="container">
                 <h2 id="contactformtext">I'm always interested in hearing about new projects, so if you'd like to chat
@@ -294,17 +301,19 @@
         <div class="container">
             <ul>
                 <li class="socialmediaicons">
-                    <a href="https://twitter.com/luisrpavanello"><img src="./Desktop_Icons/SocialMedia/twitter.png" alt="Twitter"></a>
+                    <a href="https://twitter.com/luisrpavanello"><img src="./Desktop_Icons/SocialMedia/twitter.png"
+                            alt="Twitter"></a>
                 </li>
                 <li class="socialmediaicons">
-                    <a href="https://www.linkedin.com/in/luisrpavanello/"><img src="./Desktop_Icons/SocialMedia/linkedin.png"
-                            alt="LinkedIn"></a>
+                    <a href="https://www.linkedin.com/in/luisrpavanello/"><img
+                            src="./Desktop_Icons/SocialMedia/linkedin.png" alt="LinkedIn"></a>
                 </li>
                 <li class="socialmediaicons">
                     <a href="https://medium.com/"><img src="./Desktop_Icons/SocialMedia/medium.png" alt="Medium"></a>
                 </li>
                 <li class="socialmediaicons">
-                    <a href="https://github.com/luisrpavanelli"><img src="./Desktop_Icons/SocialMedia/github.png" alt="GitHub"></a>
+                    <a href="https://github.com/luisrpavanelli"><img src="./Desktop_Icons/SocialMedia/github.png"
+                            alt="GitHub"></a>
                 </li>
                 <li class="socialmediaicons">
                     <a href="https://www.angellist.com/"><img src="./Desktop_Icons/SocialMedia/angellist.png"
@@ -318,4 +327,5 @@
     </footer>
     <script src="./script.js"></script>
 </body>
+
 </html>

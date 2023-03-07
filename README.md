@@ -101,6 +101,10 @@ To run this project, you will need a web browser, a text editor, and a local web
 - Twitter: [@Santiag24209785](https://twitter.com/Santiag24209785)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/santiagomuñoz
 
+👤 **Marco Almada**
+
+- GitHub: [@MarcoDDM](https://github.com/MarcoDDM)
+
 👤 **Eric**
 
 - GitHub: [@Mylo16](https://github.com/Mylo16)

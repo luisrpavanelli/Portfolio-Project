@@ -19,7 +19,7 @@ exitMobileButton.addEventListener('click', () => {
   exitMobileButton.classList.toggle('active');
 });
 
-//Listner
+// Listner
 for (let i = 0; i < menuTabs.length; i += 1) {
   menuTabs[i].addEventListener('click', () => {
     navBarLinks.classList.toggle('active');

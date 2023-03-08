@@ -29,7 +29,7 @@ for (let i = 0; i < menuTabs.length; i += 1) {
   });
 }
 
-// #region projects data
+// #Location project data
 const projectsList = [
   {
     name: 'My First Project in List',
@@ -86,4 +86,4 @@ const projectsList = [
     sourcelink: '#',
   },
 ];
-// #endregion
+// #End

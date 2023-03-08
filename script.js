@@ -139,4 +139,4 @@ function HideModal() { // eslint-disable-line no-unused-vars
   modalPopUp.classList.toggle('active');
   overlayBg.classList.toggle('active');
   window.scrollTo(0, currentScrollPosition);
-} 
+}

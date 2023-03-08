@@ -767,3 +767,10 @@ textarea:focus {
     margin: 0 auto 40rem;
   }
 }
+
+@media (min-width: 1800px) {
+    .headline {
+      background: none;
+      margin: 0 auto 60rem;
+  }  
+}

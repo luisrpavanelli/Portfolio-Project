@@ -38,7 +38,7 @@ const projectsList = [
     feturedImageMobile: 'mobilepeojectpreview.jpg',
     feauturedImageDesktop: 'desktopSnapshot.svg',
     livelink: 'https://www.google.com/',
-    sourcelink: '#',
+    sourcelink: 'https://www.github.com/',
   },
   {
     name: 'My Second Project in List',
@@ -113,6 +113,7 @@ function ShowModal(index) {
   sourceL.setAttribute('onclick', `window.location.href='${project.sourcelink}'`);
 }
 // #EndLocation
+
 // Get the project card template from the DOM
 const projectCardTemplate = document.getElementById('cardtemplate');
 // Get the container where the project cards will be inserted

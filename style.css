@@ -404,7 +404,8 @@ nav {
 }
 
 .about {
-  background: url(./Desktop_Images/backgroundabout.png) no-repeat center center /
+  background:
+    url(./Desktop_Images/backgroundabout.png) no-repeat center center /
     cover;
   padding: 0 24px;
   display: flex;
@@ -728,7 +729,8 @@ textarea:focus {
   }
 
   .contactsection {
-    background: url(./Desktop_Images/backgroundcontactdesktop.svg) no-repeat 0
+    background:
+      url(./Desktop_Images/backgroundcontactdesktop.svg) no-repeat 0
       center / cover;
     margin: 100px auto 0;
   }

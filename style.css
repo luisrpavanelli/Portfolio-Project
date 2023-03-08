@@ -404,7 +404,8 @@ nav {
 }
 
 .about {
-  background: url(./Desktop_Images/backgroundabout.png) no-repeat center center / cover;
+  background: url(./Desktop_Images/backgroundabout.png) no-repeat center center /
+    cover;
   padding: 0 24px;
   display: flex;
   flex-direction: column;
@@ -727,8 +728,7 @@ textarea:focus {
   }
 
   .contactsection {
-    background:
-      url(./Desktop_Images/backgroundcontactdesktop.svg) no-repeat 0
+    background: url(./Desktop_Images/backgroundcontactdesktop.svg) no-repeat 0
       center / cover;
     margin: 100px auto 0;
   }
@@ -778,23 +778,9 @@ textarea:focus {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
   .headline {
     background: none;
     margin: 0 auto 30rem;
-  }
-}
-
-@media (min-width: 1300px) {
-  .headline {
-    background: none;
-    margin: 0 auto 40rem;
-  }
-}
-
-@media (min-width: 1800px) {
-  .headline {
-    background: none;
-    margin: 0 auto 60rem;
   }
 }

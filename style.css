@@ -686,3 +686,15 @@ hr.roundeddivider,
   opacity: 1;
   pointer-events: all;
 }
+
+.aboutme {
+  background-image: url(./Images/desktopaboutbg.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+}
+.about {
+  max-width: 920px;
+  background-image: none;
+  margin: 60px auto 40px;
+}

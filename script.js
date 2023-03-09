@@ -141,7 +141,7 @@ function HideModal() { // eslint-disable-line no-unused-vars
   window.scrollTo(0, currentScrollPosition);
 }
 // #location
-const form = document.getElementsByClassName('contact-form')[0];
+const form = document.getElementsByClassName('contactform')[0];
 const emailField = document.getElementById('email');
 const setError = (message) => {
   const errorContainer = form.querySelector('.error');

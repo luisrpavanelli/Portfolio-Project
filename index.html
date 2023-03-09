@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -8,11 +7,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio Luis</title>
+    <title>Pavanello's Portfolio</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./Desktop_Icons/logoicon.ico" type="image/x-icon">
 </head>
-
 <body>
     <!-- NavBar -->
     <nav class="navbar">
@@ -23,23 +21,18 @@
             <span class="bar"></span>
         </a>
         <div class="menu-links">
-            <aside class="menutabs">
-                <ul class="menutabs">
-                  <li class="menutabs"><a href="#portfolio">Portfolio</a></li>
-                  <div class="aside-bar"></div>
-                  <li class="menutabs"><a href="#aboutme">About</a></li>
-                  <div class="aside-bar"></div>
-                  <li class="menutabs"><a href="#contactsection">Contact</a></li>
-                  <div class="aside-bar"></div>
-                </ul>
-            </aside>
+            <ul class="menutabs">
+                <a href="#welcometext"><li>Portfolio</li></a>
+                <a href="#aboutme"><li>About</li></a>
+                <a href="#contactform"><li>Contact</li></a>
+            </ul>
         </div>
         <span class="dim-background"></span>
         <button class="exit-mobile-menu">&times;</button>
-
+        
     </nav>
     <!-- Headline Section-->
-    <section class="headline" id="portfolio">
+    <section class="headline">
         <div class="headlinecontent">
             <div class="container" id="welcometext">
                 <h1>Hey there. I'm Luis</h1>
@@ -59,8 +52,8 @@
                                 alt="Twitter"></a>
                     </li>
                     <li class="socialmediaicons">
-                        <a href="https://www.linkedin.com/in/luisrpavanello/"><img
-                                src="./Desktop_Icons/SocialMedia/linkedin.png" alt="LinkedIn"></a>
+                        <a href="https://www.linkedin.com/in/luisrpavanello/"><img src="./Desktop_Icons/SocialMedia/linkedin.png"
+                                alt="LinkedIn"></a>
                     </li>
                     <li class="socialmediaicons">
                         <a href="https://medium.com/"><img src="./Desktop_Icons/SocialMedia/medium.png"
@@ -82,131 +75,66 @@
         </div>
 
     </section>
-    <section class="workscontainer" id="workss">
+    <!-- Works Section-->
+    <section class="workscontainer">
         <div class="container">
             <h2>My Recent Works</h2>
         </div>
         <div>
             <hr class="roundeddivider">
         </div>
+        <!-- Cards -->
         <div class="works">
-            <div class="workscard">
-                <div class="card">
-                    <div class="cardinfo">
-                        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-                    </div>
-                    <div class="cardinfo">
-                        <ul class="tags">
-                            <li class="tag">Ruby on rails</li>
-                            <li class="tag">CSS</li>
-                            <li class="tag">JavaScript</li>
-                            <li class="tag">HTML</li>
-                        </ul>
-                    </div>
-                    <div class="cardinfo">
-                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See
-                            Project</button>
-                    </div>
-                </div>
-            </div>
-            <div class="workscard">
-                <div class="card">
-                    <div class="cardinfo">
-                        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-                    </div>
-                    <div class="cardinfo">
-                        <ul class="tags">
-                            <li class="tag">Ruby on rails</li>
-                            <li class="tag">CSS</li>
-                            <li class="tag">JavaScript</li>
-                            <li class="tag">HTML</li>
-                        </ul>
-                    </div>
-                    <div class="cardinfo">
-                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See
-                            Project</button>
+            <!-- Template Card -->
+            <template id="cardtemplate">
+                <div class="workscard">
+                    <div class="card">
+                        <div class="cardinfo">
+                            <h3></h3>
+                        </div>
+                        <div class="cardinfo">
+                            <ul class="tags">
+                                <li class="tag"></li>
+                                <li class="tag"></li>
+                                <li class="tag"></li>
+                                <li class="tag"></li>
+                            </ul>
+                        </div>
+                        <div class="cardinfo">
+                            <button class="button">See Project</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="workscard">
-                <div class="card">
-                    <div class="cardinfo">
-                        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-                    </div>
-                    <div class="cardinfo">
-                        <ul class="tags">
-                            <li class="tag">Ruby on rails</li>
-                            <li class="tag">CSS</li>
-                            <li class="tag">JavaScript</li>
-                            <li class="tag">HTML</li>
-                        </ul>
-                    </div>
-                    <div class="cardinfo">
-                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See
-                            Project</button>
-                    </div>
-                </div>
-            </div>
-            <div class="workscard">
-                <div class="card">
-                    <div class="cardinfo">
-                        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-                    </div>
-                    <div class="cardinfo">
-                        <ul class="tags">
-                            <li class="tag">Ruby on rails</li>
-                            <li class="tag">CSS</li>
-                            <li class="tag">JavaScript</li>
-                            <li class="tag">HTML</li>
-                        </ul>
-                    </div>
-                    <div class="cardinfo">
-                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See
-                            Project</button>
-                    </div>
-                </div>
-            </div>
-            <div class="workscard">
-                <div class="card">
-                    <div class="cardinfo">
-                        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-                    </div>
-                    <div class="cardinfo">
-                        <ul class="tags">
-                            <li class="tag">Ruby on rails</li>
-                            <li class="tag">CSS</li>
-                            <li class="tag">JavaScript</li>
-                            <li class="tag">HTML</li>
-                        </ul>
-                    </div>
-                    <div class="cardinfo">
-                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See
-                            Project</button>
-                    </div>
-                </div>
-            </div>
-            <div class="workscard">
-                <div class="card">
-                    <div class="cardinfo">
-                        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-                    </div>
-                    <div class="cardinfo">
-                        <ul class="tags">
-                            <li class="tag">Ruby on rails</li>
-                            <li class="tag">CSS</li>
-                            <li class="tag">JavaScript</li>
-                            <li class="tag">HTML</li>
-                        </ul>
-                    </div>
-                    <div class="cardinfo">
-                        <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';">See
-                            Project</button>
-                    </div>
-                </div>
-            </div>
+             </template>
         </div>
-
-    </section>
+        <!-- Pop-up Template -->
+        <div class="modalcontainer">
+            <div class="exit-modal">
+                <button id="exit-modal-button" onclick="HideModal()">&times;</button>
+            </div>
+            <div class="modal-featured-image">
+            </div>
+            <div class="modal-info-container">
+                <div class="modal-title">
+                    <h3>Keeping Track of hundreds of components</h3>
+                </div>
+                <div class="modal-links">
+                    <button id="see-live">See Live<img class="modal-icons" src="./Desktop_Icons/SocialMedia/white_icon_live.svg" alt="live link"></button>
+                    <button id="see-source">See Source<img class="modal-icons" src="./Desktop_Icons/SocialMedia/white_icon_gh.svg" alt="live link"></button>
+                </div>
+            </div>
+            <ul class="tags">
+                <li class="tag">Ruby On Rails</li>
+                <li class="tag">Css</li>
+                <li class="tag">JavaScript</li>
+                <li class="tag">html</li>
+            </ul>
+            <p class="modal-description">
+            </p>
+        </div>
+        <div id="overlay"></div>
+</section>
+    <!--About Section-->
     <section class="aboutme" id="aboutme">
         <div class="about">
             <div class="container">
@@ -220,7 +148,7 @@
                 </p>
             </div>
             <div class="container">
-                <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';"> Get My
+                <button class="button" onclick="window.location.href='https://github.com/luisrpavanelli';"> Get My  
                     Resume</button>
             </div>
         </div>
@@ -277,7 +205,7 @@
             </div>
         </div>
     </section>
-    <section class="contactsection" id="contactsection">
+    <section class="contactsection">
         <div class="contact">
             <div class="container">
                 <h2 id="contactformtext">I'm always interested in hearing about new projects, so if you'd like to chat
@@ -301,19 +229,17 @@
         <div class="container">
             <ul>
                 <li class="socialmediaicons">
-                    <a href="https://twitter.com/luisrpavanello"><img src="./Desktop_Icons/SocialMedia/twitter.png"
-                            alt="Twitter"></a>
+                    <a href="https://twitter.com/luisrpavanello"><img src="./Desktop_Icons/SocialMedia/twitter.png" alt="Twitter"></a>
                 </li>
                 <li class="socialmediaicons">
-                    <a href="https://www.linkedin.com/in/luisrpavanello/"><img
-                            src="./Desktop_Icons/SocialMedia/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://www.linkedin.com/in/luisrpavanello/"><img src="./Desktop_Icons/SocialMedia/linkedin.png"
+                            alt="LinkedIn"></a>
                 </li>
                 <li class="socialmediaicons">
                     <a href="https://medium.com/"><img src="./Desktop_Icons/SocialMedia/medium.png" alt="Medium"></a>
                 </li>
                 <li class="socialmediaicons">
-                    <a href="https://github.com/luisrpavanelli"><img src="./Desktop_Icons/SocialMedia/github.png"
-                            alt="GitHub"></a>
+                    <a href="https://github.com/luisrpavanelli"><img src="./Desktop_Icons/SocialMedia/github.png" alt="GitHub"></a>
                 </li>
                 <li class="socialmediaicons">
                     <a href="https://www.angellist.com/"><img src="./Desktop_Icons/SocialMedia/angellist.png"
@@ -327,5 +253,4 @@
     </footer>
     <script src="./script.js"></script>
 </body>
-
 </html>

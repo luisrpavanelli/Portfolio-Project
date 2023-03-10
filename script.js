@@ -165,13 +165,11 @@ form.addEventListener('submit', (e) => {
 });
 
 const inputFields = document.querySelectorAll('input, textarea');
- 
+
 inputFields.forEach(input => {
   input.addEventListener('input', event => {
     const updatedValue = event.target.value;
- 
     const keyName = event.target.name;
-
     localStorage.setItem(keyName, updatedValue);
   });
 });

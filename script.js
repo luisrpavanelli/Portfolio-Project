@@ -171,5 +171,5 @@ inputFields.forEach(input => {
     const updatedValue = event.target.value;
     const keyName = event.target.name;
     localStorage.setItem(keyName, updatedValue);
-  };
-};
+  });
+});

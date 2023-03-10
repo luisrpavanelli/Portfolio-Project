@@ -135,7 +135,8 @@ function HideModal() { // eslint-disable-line no-unused-vars
   window.scrollTo(0, currentScrollPosition);
 }
 
-const form = document.getElementsByClassName('contactform')[0];
+// #region
+const form = document.getElementsByClassName('contact-form')[0];
 const emailField = document.getElementById('email');
 const setError = (message) => {
   const errorContainer = form.querySelector('.error');
@@ -163,13 +164,4 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   validateInputs();
 });
-
-const inputFields = document.querySelectorAll('input, textarea');
-
-inputFields.forEach(input => {
-  input.addEventListener('input', event => {
-    const updatedValue = event.target.value;
-    const keyName = event.target.name;
-    localStorage.setItem(keyName, updatedValue);
-  });
-});
+// #endregion

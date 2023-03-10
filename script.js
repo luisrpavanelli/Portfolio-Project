@@ -163,7 +163,7 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   validateInputs();
 });
-//input
+
 const inputFields = document.querySelectorAll('input, textarea');
 
 inputFields.forEach(input => {

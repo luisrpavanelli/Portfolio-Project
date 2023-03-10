@@ -114,10 +114,15 @@ function ShowModal(index) {
 }
 // #EndLocation
 
+// Get the project card template from the DOM
 const projectCardTemplate = document.getElementById('cardtemplate');
+// Get the container where the project cards will be inserted
 const projectsContainer = document.querySelector('.works');
+// Loop through the projectsList array and generate the HTML for each project
 for (let i = 0; i < projectsList.length; i += 1) {
+  // Clone the project card template
   const projectCard = projectCardTemplate.content.cloneNode(true);
+  // Fill in the details for the project
   const project = projectsList[i];
   projectCard.querySelector('h3').textContent = project.name;
   projectCard.querySelectorAll('.tag').forEach((tag, index) => {
@@ -127,6 +132,7 @@ for (let i = 0; i < projectsList.length; i += 1) {
   projectCard.querySelector('.button').addEventListener('click', () => {
     ShowModal(i);
   });
+  // Insert the project card into the projects container
   projectsContainer.appendChild(projectCard);
 }
 function HideModal() { // eslint-disable-line no-unused-vars
@@ -134,9 +140,8 @@ function HideModal() { // eslint-disable-line no-unused-vars
   overlayBg.classList.toggle('active');
   window.scrollTo(0, currentScrollPosition);
 }
-
-// #region
-const form = document.getElementsByClassName('contact-form')[0];
+// #location
+const form = document.getElementsByClassName('contactform')[0];
 const emailField = document.getElementById('email');
 const setError = (message) => {
   const errorContainer = form.querySelector('.error');
@@ -164,4 +169,4 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   validateInputs();
 });
-// #endregion
+// #endlocation
